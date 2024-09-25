@@ -1,0 +1,22 @@
+{
+  "name": "react_main",
+  "version": "1.0.0",
+  "description": "React Learning",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tejas2410/React_Notes.git"
+  },
+  "author": "Tejas Patil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tejas2410/React_Notes/issues"
+  },
+  "homepage": "https://github.com/Tejas2410/React_Notes#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
