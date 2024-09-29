@@ -1,24 +1,15 @@
-/*
-    for siblings inside a div tag add inside array
-*/
+import React from 'react';
+import ReactDOM from "react-dom";
 
-const parent = React.createElement("div",{ id: "Parent" },
-  [
-    React.createElement("div",{ id: "child" },[
-        React.createElement("h1",{ id: "heading" },"I'm an h1 tag") ,
-        React.createElement("h2",{ id: "heading" },"I'm an h2 tag")
-    ]),
-    
-    React.createElement("div",{ id: "child1" },[
-        React.createElement("h1",{ id: "heading" },"I'm an h1 tag") ,
-        React.createElement("h2",{ id: "heading" },"I'm an h2 tag")
-    ])
-  ]
-);
+const heading = React.createElement("h2" , {id : "head"} , "This is react element");
 
-console.log(parent); // return object
+console.log(heading);
 
-const rootContainer = document.getElementById("root");
-const root = ReactDOM.createRoot(rootContainer);
+const jsxHeading = <h1 id = "heading">This is jsx code heading</h1>
 
-root.render(parent);
+console.log(jsxHeading);
+
+
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(heading);
